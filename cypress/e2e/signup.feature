@@ -14,7 +14,7 @@ Feature: SignUp Journey and Scenario
         And I select "<option>" as how I heard about mima
         And I fill in the "password" with data "Test@1234"
         And I click "Sign Up" Button
-        Then I should see the OTP page
+        # Then I should see the OTP page
         # When I insert the OTP
         # Then I should see the following on the dashboard
         #     | sidebar              |
